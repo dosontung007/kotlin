@@ -33,7 +33,7 @@ dependencies {
     compile(projectTests(":plugins:uast-kotlin"))
     compile(projectTests(":js:js.tests"))
     compile(projectTests(":generators:test-generator"))
-    compile(ideaSdkDeps("jps-build-test", subdir = "jps/test"))
+    //compile(ideaSdkDeps("jps-build-test", subdir = "jps/test"))
     testCompile(project(":idea:idea-test-framework")) { isTransitive = false }
     testCompile(project(":compiler:incremental-compilation-impl"))
     testCompile(commonDep("junit:junit"))
