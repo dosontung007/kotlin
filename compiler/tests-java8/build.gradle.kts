@@ -24,6 +24,7 @@ dependencies {
     testRuntime(projectRuntimeJar(":kotlin-preloader"))
     testRuntime(preloadedDeps("dx", subdir = "android-5.0/lib"))
     testRuntime(ideaSdkCoreDeps("*.jar"))
+    testRuntime(ideaSdkDeps("resources"))
     testRuntime(ideaSdkDeps("*.jar"))
 }
 
